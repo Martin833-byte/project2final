@@ -1,95 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-body{
-  background-color:  #FFFFFF;
-  font-family: 'Poppins', Arial, sans-serif;
-  margin: 2rem;
-  }
-  
-h1{
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 2rem;
+}
+
+h1 {
     text-align: center;
     font-size: 2.2rem;
     margin-bottom: 1rem;
 }
-    
-    
-h2{
+
+
+h2 {
     margin-top: 2rem;
-    font-size:1.6rem;
+    font-size: 1.6rem;
 }
 
 
-h3{
-    margin-top:1.5rem;
+h3 {
+    margin-top: 1.5rem;
 }
 
 
-nav{
-    float:left;
-    width:20%;
+nav {
+    float: left;
+    width: 20%;
 }
 
 
-main{
+main {
     float: left;
     width: 60%;
 }
 
 
-aside{
-    float:right;
-    width:20%
+aside {
+    float: right;
+    width: 20%
 }
 
 
-footer{
+footer {
     clear: both;
 }
 
 
-nav ul{
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  list-style:none;
-  padding:0;
- }
- 
- 
-nav a{
-    text-decoration: none;
- }
- 
- 
- nav a:hover{
-  color:blue;
- }
- 
- 
-p{
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-  }
-  
-  
-audio {
-    display: block;
-  margin: 1rem auto;
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
 }
 
 
-section{
+nav a {
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: blue;
+}
+
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+
+audio {
+    display: block;
+    margin: 1rem auto;
+}
+
+
+section {
     width: 80%;
     max-width: 60rem;
     margin: auto;
 }
 
-.index h1{
+.index h1 {
     text-align: center;
     color: #2c3e50;
 }
 
 
-.index section{
+.index section {
     width: 80%;
     max-width: 60rem;
     margin: 2rem auto;
@@ -99,7 +100,7 @@ section{
 }
 
 
-.index img{
+.index img {
     display: block;
     width: 60%;
     max-width: 350px;
@@ -112,14 +113,14 @@ section{
     color: #444;
 }
 
-.index a{
-    display:block;
+.index a {
+    display: block;
     text-align: center;
     font-weight: 600;
 }
 
 
-.about section{
+.about section {
     width: 80%;
     max-width: 60rem;
     margin: 2rem auto;
@@ -129,7 +130,7 @@ section{
 }
 
 
-.about img{
+.about img {
     display: block;
     width: 50%;
     max-width: 300px;
@@ -137,53 +138,53 @@ section{
 }
 
 
-.about h1{
+.about h1 {
     text-align: center;
     color: #cc0000;
 }
 
-.about ul{
+.about ul {
     width: 60%;
     margin: 2rem auto;
     font-size: 1.1rem;
 }
 
 
-.about li{
+.about li {
     margin-bottom: 0.5rem;
 }
 
 
-.resume{
-    width:70%;
+.resume {
+    width: 70%;
     max-width: 55rem;
     margin: auto;
 }
 
 
 .resume img {
-  display: block;
-  width: 30%;
-  max-width: 200px;
-  margin: 1rem auto;
-  border-radius: 8px;
+    display: block;
+    width: 30%;
+    max-width: 200px;
+    margin: 1rem auto;
+    border-radius: 8px;
 }
 
 .resume h1 {
-  text-align: center;
-  margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .resume h2 {
-  margin-top: 2rem;
-  border-bottom: 2px solid #333;
-  padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
 }
 
 .resume ul {
-  margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 .resume li {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
